@@ -19,10 +19,21 @@
   color: blue;
   font-style: italic;
 }
-._round{
+._round_orange{
   list-style-image: url(../images/пример2_03.gif);
 }
-._check
+._check_yellow
 {
   list-style-image: url(../images/пример2_07.gif);
+}
+._round_red{
+  list-style-image: url(../images/пример2_10.gif);
+}
+._check_blue
+{
+  list-style-image: url(../images/пример2_12.gif);
+}
+._cross
+{
+  list-style-image: url(../images/пример2_15.gif);
 }
