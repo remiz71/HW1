@@ -1,0 +1,21 @@
+._red{
+  color: red;
+}
+._red_i
+{
+  color: red;
+  font-style:italic;
+}
+._green_i
+{
+  color: green;
+  font-style: italic;
+}
+._blue
+{
+  color: darkblue;
+}
+._blue_i{
+  color: blue;
+  font-style: italic;
+}
