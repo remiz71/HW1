@@ -19,3 +19,10 @@
   color: blue;
   font-style: italic;
 }
+._round{
+  list-style-image: url(../images/пример2_03.gif);
+}
+._check
+{
+  list-style-image: url(../images/пример2_07.gif);
+}
