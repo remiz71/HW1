@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Табличная вёрстка</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<!-- Main site layout -->
+
+<table style="border-style: solid" id="main_layout_table">
+  <tr>
+    <td id="left_column" rowspan="4">
+      <img src="images/w_photo.jpg" style="height: 315px; width: 550px" />
+    </td>
+    <td id="right_column">
+      <table>
+        <tr>
+          <td>
+            <div class="date date-month">January</div>
+            <div class="date date-year">2022</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!-- Calendar table -->
+            <table id="calendar">
+              <thead>
+              <tr>
+                <td>ПН</td>
+                <td>ВТ</td>
+                <td>СР</td>
+                <td>ЧТ</td>
+                <td>ПТ</td>
+                <td class="_red">СБ</td>
+                <td class="_red">ВС</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="gray">27</td>
+                <td class="gray">28</td>
+                <td class="gray">29</td>
+                <td class="gray">30</td>
+                <td class="gray">31</td>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>31</td>
+                <td class="gray">1</td>
+                <td class="gray">2</td>
+                <td class="gray">3</td>
+                <td class="gray">4</td>
+                <td class="gray">5</td>
+                <td class="gray">6</td>
+              </tr>
+              </tbody>
+              <tfoot>
+              <tr>
+                <td>ПН</td>
+                <td>ВТ</td>
+                <td>СР</td>
+                <td>ЧТ</td>
+                <td>ПТ</td>
+                <td class="_red">СБ</td>
+                <td class="_red">ВС</td>
+              </tr>
+              </tfoot>
+            </table>
+            <!-- Calendar table -->
+          </td>
+        </tr>
+      </table>
+    </td>
+    <!-- End Of Right Column -->
+  </tr>
+</table>
+
+</body>
+</html>

@@ -37,3 +37,75 @@
 {
   list-style-image: url(../images/пример2_15.gif);
 }
+
+#main_layout_table{
+  width: 50%;
+}
+
+#left_column{
+  width: 60%;
+}
+
+#left_column img
+{
+  width: 50%;
+}
+
+#right_column{
+  width: 40%;
+}
+
+#right_column table
+{
+  width: 100%;
+}
+
+#calendar td{
+  text-align: center;
+  vertical-align: middle;
+  width: 14%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#right_column thead, tfoot
+{
+  background-color: cornflowerblue;
+  font-size: 12px;
+}
+
+td {
+  vertical-align: top;
+}
+
+.date
+{
+  color: darkslateblue;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.date-month
+{
+  float: left;
+  font-size: 25px;
+}
+
+.date-year
+{
+  float: right;
+  font-size: 25px;
+}
+td
+{
+  font-size: large;
+  width: 30px;
+  height: 30px;
+}
+.gray{
+  color: gray;
+}
+#main_list li{
+  font-weight: bold;
+}
